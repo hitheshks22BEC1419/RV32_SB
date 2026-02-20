@@ -20,7 +20,12 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 //hello world gitcheck
+/*
 module scoreboard(
+    input wire clk,rst,
+
+    
 
     );
 endmodule
+*/

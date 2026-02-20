@@ -48,7 +48,7 @@ module cpu_register(
             if(a_we && a_rd != 0)
                 bank[a_rd] <= a_wd;
             if(b_we && b_rd != 0)
-                bank[b_rd] <= b_wd;
+                bank[b_rd] <= b_wd; //preference given to portB incase of overlap
 
             bank[0] <= 32'b0;
 
